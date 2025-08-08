@@ -16,7 +16,7 @@ function TodoForm() {
         );
 
         if (alreadyExists) {
-            setError("Todo already exists");
+            setError("Todo already exists!!!");
             return;
         }
 
@@ -44,7 +44,7 @@ function TodoForm() {
                     </button>
                 </div>
                 {error && (
-                    <p className="text-xl font-semibold  text-red-700 bg-red-100 px-5 py-5 mt-4 rounded-lg">
+                    <p className="text-xl font-bold  text-red-700 bg-red-100 p-3 mt-2 rounded-lg">
                         {error}
                     </p>
                 )}
